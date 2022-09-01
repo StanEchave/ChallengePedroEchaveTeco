@@ -1,0 +1,139 @@
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+
+.App-header {
+  background: linear-gradient(
+    to right,
+    rgb(3, 243, 183) 0%,
+    rgb(3, 243, 183) 30%,
+    rgb(255, 255, 255) 30%,
+    rgb(255, 255, 255) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login{
+  background: linear-gradient(
+    to right,
+    rgb(3, 243, 183) 0%,
+    rgb(3, 243, 183) 26.5%,
+    rgb(255, 255, 255) 26.5%,
+    rgb(255, 255, 255) 100%
+  );
+  display: flex;
+  height: 85vh;
+  width: 85vw;
+  box-shadow: 0px 0px 55px 15px rgba(0, 0, 0, 0.144) ;
+  justify-content: center;
+  align-items:center
+}
+
+.loginHelp{
+  align-items: flex-start;
+  align-self:flex-end;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.loginTittle{
+  padding: 30px 0;
+}
+
+.formContainer{
+  
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  align-content: space-around;
+  width: 73.5%;
+  padding: 15px;
+  
+  
+}
+
+.loginCointainer{
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+
+
+.loginForm{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;  
+}
+
+
+
+.loginLabel{
+  padding: 15px 0px;
+  text-align: left;
+  align-self: center;
+  width: 100%;
+}
+
+.loginInput{
+  padding: 15px;
+  border-radius: 5px;
+  
+  width: 100%;
+  align-self: center;
+  border-width: 0.2px ;
+  }
+
+.loginPassword{
+  align-self: flex-end;
+  padding: 0px ;
+  text-decoration: none;
+  color: black;
+}
+
+
+.loginButton{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 15px ;
+  align-self: center;
+  background-color: rgb(3, 243, 183);
+  border-radius: 5px;
+  border-width: 0px ;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.brandContainer{
+
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width: 26.5%;
+  
+}
+
+.brandSub{
+  padding: 25px;
+  font-size: 18px;
+  width: 70%;
+  text-align: center;
+}
+
+.brandTittle{
+  padding: 15px;
+  font-size:26px ;
+  text-align: center;
+}
